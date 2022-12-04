@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Georgia;
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Georgia.woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Regular.woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: medium;
+  src: url("../fonts/Montserrat-Medium.woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: bold;
+  src: url("../fonts/Montserrat-Bold.woff2");
+}
+.visually-hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+.header__title {
+  font-size: 36px;
+}
+
+.header {
+  display: flex;
+  padding: 19px 76px;
+  margin: 0;
+  align-items: center;
+  background-color: #EDECE8;
+}
+
+.nav__item {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.subtitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 46px;
+  color: #343433;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #9D9480;
+}
+
+.intro__image {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+@import "./__logo/_logo";
+@import "./__title/_title";
+
+.header {
+   display: flex;
+   padding: 19px 76px;
+   margin: 0;
+   align-items: center;
+   background-color: $bgr-color;
+}
