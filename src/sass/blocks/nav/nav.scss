@@ -1,3 +1,9 @@
 @import "./__item/_item";
 @import "./__list/_list";
 
+
+@media screen and (max-width: $mobile-width) {
+    .nav {
+    display: none;
+}
+}

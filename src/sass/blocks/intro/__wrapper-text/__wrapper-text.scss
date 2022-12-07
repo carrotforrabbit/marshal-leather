@@ -1,0 +1,12 @@
+.intro__wrapper-text {
+    width: 100%;
+    padding: 520px 0;
+    background-image: url('/src/images/main3.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_second {
+        background-image: url('/src/images/main2.JPG');
+    }
+}

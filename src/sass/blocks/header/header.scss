@@ -1,10 +1,12 @@
 @import "./__logo/_logo";
 @import "./__title/_title";
+@import "./__wrapper/_wrapper";
 
 .header {
    display: flex;
-   padding: 19px 76px;
+   padding: 10px 76px;
    margin: 0;
    align-items: center;
+   justify-content: space-between;
    background-color: $bgr-color;
 }
