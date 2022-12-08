@@ -33,16 +33,16 @@ body {
 }
 
 .header__logo {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.62rem;
 }
 
 .header__title {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 1.87rem;
   color: #343433;
 }
 
@@ -53,20 +53,20 @@ body {
 
 .header {
   display: flex;
-  padding: 10px 76px;
+  padding: 0.62rem 4.75rem;
   margin: 0;
   align-items: center;
   justify-content: space-between;
-  background-color: #EDECE8;
+  background-color: #E5E5E5;
 }
 
 .nav__item {
   padding: 0;
   margin: 0;
-  margin-right: 50px;
+  margin-right: 3.1rem;
 }
 .nav__item:hover {
-  margin-right: 49px;
+  margin-right: 3, 1rem;
   font-weight: 500;
   color: #2B2A29;
   cursor: pointer;
@@ -79,47 +79,77 @@ body {
   list-style-type: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .nav {
     display: none;
   }
 }
 .subtitle {
+  padding: 0;
+  margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 300;
-  font-size: 46px;
+  font-size: 2.8rem;
   color: #343433;
 }
 
 .text {
-  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
   font-weight: 400;
   color: #343433;
 }
 
 .title {
-  padding: 0;
+  position: relative;
+  padding: 0 0 1.5rem 2.8rem;
   margin: 0;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 500;
+  line-height: 1.93rem;
   color: #9D9480;
+}
+.title::before {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  height: 1px;
+  left: 0;
+  bottom: 2.3rem;
+  background-color: #A89C83;
+}
+.title_about::before {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  height: 1px;
+  left: 20.5rem;
+  bottom: 2.3rem;
+  background-color: #A89C83;
 }
 
 .intro__wrapper-text {
   width: 100%;
-  padding: 520px 0;
-  background-image: url("/marshal-leather/src/images/main3.JPG");
+  height: auto;
+  padding: 25rem 0 20rem 0;
+  background-image: url("marshal-leather/src/images/main.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #69B7E1;
 }
 .intro__wrapper-text_second {
-  background-image: url("/marshal-leather/src/images/main2.JPG");
+  background-image: url("marshal-leather/src/images/main2.JPG");
+}
+
+.text {
+  font-size: 0.93rem;
+  line-height: 1.93rem;
 }
 
 .intro__title {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   color: #F4F3F1;
   text-align: center;
@@ -129,16 +159,43 @@ body {
 
 .intro__subtitle {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #F4F3F1;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.3em;
 }
 
+.intro-wrapper__text {
+  margin: 0;
+  padding: 0;
+  max-width: 60%;
+}
+
 .intro-wrapper {
   display: flex;
-  padding: 139px 415px;
+  padding: 8rem 15rem;
+}
+
+.text-container {
+  margin-right: 5rem;
+}
+
+.about {
+  margin: 0;
+  padding: 8rem 15rem;
+  background-color: #EDECE8;
+  text-align: center;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #343433;
+  border: none;
+  border-bottom: 0.18rem solid #D2CCBF;
 }
 
 /*# sourceMappingURL=main.css.map */

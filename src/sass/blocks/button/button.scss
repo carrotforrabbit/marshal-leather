@@ -1,0 +1,9 @@
+.button {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: $text;
+    border: none;
+    border-bottom: 0.18rem solid $button;
+}

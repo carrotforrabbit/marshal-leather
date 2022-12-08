@@ -1,7 +1,29 @@
 .title {
-    padding: 0;
+    position: relative;
+    padding: 0 0 1.5rem 2.8rem;
     margin: 0;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
-    color: #9D9480;
+    line-height: 1.93rem;
+    color: $subtitle;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 2rem;
+        height: 1px;
+        left: 0;
+        bottom: 2.3rem;
+        background-color: $line;
+    }
+
+    &_about::before {
+        position: absolute;
+        content: '';
+        width: 2rem;
+        height: 1px;
+        left: 20.5rem;
+        bottom: 2.3rem;
+        background-color: $line;
+    }
 }
