@@ -133,14 +133,14 @@ body {
   width: 100%;
   height: auto;
   padding: 25rem 0 20rem 0;
-  background-image: url("/src/images/main.jpg");
+  background-image: url("marshal-leather/src/images/main.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #69B7E1;
 }
 .intro__wrapper-text_second {
-  background-image: url("/src/images/main2.jpg");
+  background-image: url("marshal-leather/src/images/main2.jpg");
 }
 
 .text {
