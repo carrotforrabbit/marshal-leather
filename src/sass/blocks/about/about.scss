@@ -4,3 +4,9 @@
     background-color: $about;
     text-align: center;
 }
+
+@media screen and (max-width: $desktop-width) {
+    .about {
+        padding: 5rem;
+    }
+}

@@ -1,0 +1,9 @@
+.about-wrapper__text {
+    text-align: left;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .about-wrapper__text {
+        text-align: center;
+    }
+}

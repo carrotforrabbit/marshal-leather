@@ -1,0 +1,13 @@
+@import "./__image/_image";
+@import "./__text/_text";
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .about-wrapper {
+        flex-direction: column;
+    }
+}

@@ -6,3 +6,10 @@
     font-size: 2.8rem;
     color: #343433;
 }
+
+@media screen and (max-width:$desktop-width) {
+    .subtitle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}

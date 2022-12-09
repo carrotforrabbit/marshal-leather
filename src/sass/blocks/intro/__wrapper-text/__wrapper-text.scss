@@ -12,3 +12,9 @@
         background-image: url('../images/main2.jpg');
     }
 }
+
+@media screen and (max-width:$tablet-width) {
+    .intro__wrapper-text {
+        padding: 20rem 0 15rem 0;
+    }
+}

@@ -1,0 +1,13 @@
+.about-wrapper__image {
+    display: block;
+    width: 20rem;
+    margin: 0;
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .about-wrapper__image {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}

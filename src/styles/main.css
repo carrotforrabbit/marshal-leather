@@ -60,6 +60,11 @@ body {
   background-color: #E5E5E5;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    align-items: left;
+  }
+}
 .nav__item {
   padding: 0;
   margin: 0;
@@ -93,14 +98,27 @@ body {
   color: #343433;
 }
 
+@media screen and (max-width: 1024px) {
+  .subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
 .text {
   padding: 0;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.93rem;
   color: #343433;
 }
 
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+  }
+}
 .title {
   position: relative;
   padding: 0 0 1.5rem 2.8rem;
@@ -119,15 +137,6 @@ body {
   bottom: 2.3rem;
   background-color: #A89C83;
 }
-.title_about::before {
-  position: absolute;
-  content: "";
-  width: 2rem;
-  height: 1px;
-  left: 20.5rem;
-  bottom: 2.3rem;
-  background-color: #A89C83;
-}
 
 .intro__wrapper-text {
   width: 100%;
@@ -143,11 +152,11 @@ body {
   background-image: url("../images/main2.jpg");
 }
 
-.text {
-  font-size: 0.93rem;
-  line-height: 1.93rem;
+@media screen and (max-width: 768px) {
+  .intro__wrapper-text {
+    padding: 20rem 0 15rem 0;
+  }
 }
-
 .intro__title {
   font-size: 3.25rem;
   font-weight: 700;
@@ -157,6 +166,11 @@ body {
   letter-spacing: 0.3em;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    font-size: 2.5rem;
+  }
+}
 .intro__subtitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;
@@ -166,17 +180,34 @@ body {
   letter-spacing: 0.3em;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__subtitle {
+    font-size: 1rem;
+  }
+}
 .intro-wrapper__text {
   margin: 0;
   padding: 0;
   max-width: 60%;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro-wrapper__text {
+    max-width: 100%;
+    text-align: justify;
+  }
+}
 .intro-wrapper {
   display: flex;
   padding: 8rem 15rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro-wrapper {
+    flex-direction: column;
+    padding: 5rem;
+  }
+}
 .text-container {
   margin-right: 5rem;
 }
@@ -188,6 +219,11 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 5rem;
+  }
+}
 .button {
   font-size: 1rem;
   font-weight: 500;
@@ -196,6 +232,48 @@ body {
   color: #343433;
   border: none;
   border-bottom: 0.18rem solid #D2CCBF;
+}
+
+.about-wrapper__image {
+  display: block;
+  width: 20rem;
+  margin: 0;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-wrapper__image {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+}
+.about-wrapper__text {
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-wrapper__text {
+    text-align: center;
+  }
+}
+.about-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+}
+.about-container__subtitle {
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.about-container {
+  margin: 0;
+  margin-bottom: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
