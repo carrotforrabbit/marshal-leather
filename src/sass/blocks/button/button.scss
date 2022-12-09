@@ -1,9 +1,24 @@
 .button {
-    font-size: 1rem;
+    display: inline-block;
+    font-size: 0.8rem;
     font-weight: 500;
+    letter-spacing: 0.2rem;
     background-color: transparent;
     text-transform: uppercase;
+    text-decoration: none;
     color: $text;
     border: none;
     border-bottom: 0.18rem solid $button;
+    cursor: pointer;
+
+    &:hover {
+        color: $subtitle;
+        border-bottom: 0.18rem solid $button;
+    }
+}
+
+@media screen and (max-width: $desktop-width) {
+    .button {
+        margin-bottom: 2.5rem;
+    }
 }
