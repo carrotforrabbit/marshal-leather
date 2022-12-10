@@ -15,6 +15,10 @@
         color: $subtitle;
         border-bottom: 0.18rem solid $button;
     }
+
+    &:focus {
+        outline: $button;
+    }
 }
 
 @media screen and (max-width: $desktop-width) {

@@ -62,7 +62,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .header {
-    align-items: left;
+    padding: 0.62rem 2rem;
+    align-items: center;
   }
 }
 .nav__item {
@@ -74,6 +75,9 @@ body {
   margin-right: 3, 1rem;
   color: #9D9480;
   cursor: pointer;
+}
+.nav__item:focus {
+  outline: #9D9480;
 }
 
 .nav__list {
@@ -252,6 +256,9 @@ body {
   color: #9D9480;
   border-bottom: 0.18rem solid #D2CCBF;
 }
+.button:focus {
+  outline: #D2CCBF;
+}
 
 @media screen and (max-width: 1024px) {
   .button {
@@ -300,6 +307,31 @@ body {
   margin-bottom: 3rem;
 }
 
+.footer__icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #D2CCBF;
+}
+.footer__icon:hover {
+  fill: #A89C83;
+}
+
+.footer__link {
+  margin-right: 0.8rem;
+}
+.footer__link_last {
+  margin-right: 0;
+}
+
+.footer__text {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__text {
+    display: none;
+  }
+}
 .footer {
   padding: 5rem 10rem;
   background-color: #343433;

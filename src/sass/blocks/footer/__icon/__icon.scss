@@ -1,0 +1,9 @@
+.footer__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: $button;
+
+    &:hover {
+        fill: $line;
+    }
+}

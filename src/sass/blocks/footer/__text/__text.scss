@@ -1,0 +1,9 @@
+.footer__text {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .footer__text {
+        display: none;
+}
+}
