@@ -1,0 +1,16 @@
+.gallery__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, Min(32.6%, 100%));
+    grid-template-rows: 2;
+    gap: 0.625rem;
+
+    @supports (grid-template-rows: masonry) {
+		grid-template-rows: masonry
+	}
+}
+
+// @media only screen and (min-width: $tablet-width) and (max-width: $desktop-width) {
+//     .gallery__wrapper {
+//         column-count: 2;
+//     }
+// }

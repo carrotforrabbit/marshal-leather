@@ -337,4 +337,25 @@ body {
   background-color: #343433;
 }
 
+.gallery__image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.gallery__image:last-child {
+  grid-column: 2/3;
+}
+
+.gallery__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 32.6%);
+  grid-template-rows: 2;
+  gap: 0.625rem;
+}
+@supports (grid-template-rows: masonry) {
+  .gallery__wrapper {
+    grid-template-rows: masonry;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

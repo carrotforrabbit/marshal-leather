@@ -1,0 +1,9 @@
+.gallery__image {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+
+    &:last-child {
+        grid-column: 2/3;
+    }
+}
