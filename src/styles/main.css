@@ -338,24 +338,32 @@ body {
 }
 
 .gallery__image {
-  display: block;
-  max-width: 100%;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  width: 33.3%;
   object-fit: cover;
 }
-.gallery__image:last-child {
-  grid-column: 2/3;
+
+@media screen and (max-width: 768px) {
+  .gallery__image {
+    padding: 0.3rem;
+  }
+}
+.gallery__wrapper {
+  margin-bottom: 4rem;
 }
 
-.gallery__wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 32.6%);
-  grid-template-rows: 2;
-  gap: 0.625rem;
-}
-@supports (grid-template-rows: masonry) {
+@media screen and (max-width: 1024px) {
   .gallery__wrapper {
-    grid-template-rows: masonry;
+    margin-bottom: 2rem;
   }
+}
+.gallery__button {
+  align-self: center;
+}
+
+.gallery {
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
