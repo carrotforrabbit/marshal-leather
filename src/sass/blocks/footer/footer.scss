@@ -6,3 +6,11 @@
     padding: 5rem 10rem;
     background-color: $text;
 }
+
+@media screen and (max-width: $desktop-width) {
+    .footer {
+        display: flex;
+        padding: 5rem;
+        justify-content: center;
+    }
+}

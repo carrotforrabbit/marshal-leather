@@ -1,0 +1,12 @@
+.accordeon__container {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+}
+
+.active + .accordeon__container {
+    height: 115px;
+    width: 265px;
+}

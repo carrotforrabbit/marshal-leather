@@ -7,3 +7,8 @@ let msnry = new Masonry( grid, {
 });
 }
 
+let acc = document.querySelector(".accordeon__title");
+
+acc.addEventListener("click", ({target}) => {
+  target.classList.toggle('active');
+})

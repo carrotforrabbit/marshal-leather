@@ -3,3 +3,10 @@
     height: 5rem;
     margin-right: 0.62rem;
 }
+
+@media screen and (max-width: $desktop-width) {
+    .header__logo {
+        width: 3rem;
+        height: 3rem;
+    }
+}
