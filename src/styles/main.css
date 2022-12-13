@@ -171,14 +171,11 @@ body {
   bottom: 2.3rem;
   background-color: #A89C83;
 }
+.title_about {
+  padding: 0;
+}
 .title_about::before {
-  position: absolute;
-  content: "";
-  width: 2rem;
-  height: 1px;
-  left: 20.5rem;
-  bottom: 2.3rem;
-  background-color: #A89C83;
+  display: none;
 }
 
 .intro__wrapper-text {

@@ -17,13 +17,11 @@
         background-color: $line;
     }
 
+    &_about {
+        padding: 0;
+    }
+
     &_about::before {
-        position: absolute;
-        content: '';
-        width: 2rem;
-        height: 1px;
-        left: 20.5rem;
-        bottom: 2.3rem;
-        background-color: $line;
+        display: none;
     }
 }
