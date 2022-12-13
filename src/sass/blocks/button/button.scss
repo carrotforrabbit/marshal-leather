@@ -1,5 +1,6 @@
 .button {
     display: inline-block;
+    padding: 0;
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
@@ -19,10 +20,14 @@
     &:focus {
         outline: $button;
     }
-}
 
-@media screen and (max-width: $desktop-width) {
-    .button {
-        margin-bottom: 2.5rem;
+    &:active {
+        color: $subtitle;
     }
 }
+
+// @media screen and (max-width: $desktop-width) {
+//     .button {
+//         margin-bottom: 2.5rem;
+//     }
+// }

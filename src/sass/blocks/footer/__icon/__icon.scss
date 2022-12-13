@@ -3,7 +3,9 @@
     height: 2rem;
     fill: $button;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         fill: $line;
     }
 }

@@ -8,5 +8,9 @@
     .intro-wrapper__text {
         max-width: 100%;
         text-align: justify;
+
+        &_order {
+            margin-top: 2.5rem;
+        }
     }
 }
