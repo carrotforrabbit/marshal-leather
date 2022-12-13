@@ -22,7 +22,7 @@ let upBtn = document.querySelector('.up-button');
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 1000) {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     upBtn.style.display = "block";
   } else {
     upBtn.style.display = "none";
@@ -33,3 +33,17 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//smooth scroll
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
