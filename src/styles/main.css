@@ -54,6 +54,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .header__title {
+    display: none;
     font-size: 1.5rem;
   }
 }
@@ -82,7 +83,7 @@ body {
 @media screen and (max-width: 768px) {
   .header {
     padding: 0.62rem 2rem;
-    align-items: center;
+    justify-content: center;
   }
 }
 .nav__item {

@@ -8,6 +8,7 @@
 
 @media screen and (max-width: $desktop-width) {
     .header__title {
+        display: none;
         font-size: 1.5rem;
     }
 }
