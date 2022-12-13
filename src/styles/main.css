@@ -466,4 +466,10 @@ body {
   background-color: #F4F3F1;
 }
 
+@media screen and (max-width: 1024px) {
+  .up-button {
+    right: 3rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

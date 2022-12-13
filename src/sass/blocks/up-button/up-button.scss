@@ -21,3 +21,9 @@
         background-color: $title;
     }
 }
+
+@media screen and (max-width: $desktop-width) {
+    .up-button {
+        right: 3rem;
+    }
+}
