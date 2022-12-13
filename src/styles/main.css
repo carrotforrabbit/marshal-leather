@@ -443,6 +443,10 @@ body {
   align-items: left;
 }
 
+.accordeon {
+  width: 265px;
+}
+
 .up-button {
   display: none;
   position: fixed;
@@ -468,7 +472,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .up-button {
-    right: 3rem;
+    right: 2.5rem;
   }
 }
 
