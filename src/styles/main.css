@@ -32,6 +32,10 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header__logo {
   width: 5rem;
   height: 5rem;
